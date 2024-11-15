@@ -4,6 +4,29 @@
 
 @layer base {
   :root {
+    --background: 200 20% 95%; /* Light teal-gray background */
+    --foreground: 220 15% 20%; /* Dark charcoal gray text for contrast */
+    --card: 200 15% 98%; /* Very light teal-gray for cards */
+    --card-foreground: 220 15% 20%; /* Charcoal gray text for readability on cards */
+    --popover: 200 15% 98%; /* Same as card background for consistency */
+    --popover-foreground: 220 15% 20%;
+    --primary: 40 60% 50%; /* Soft gold accent for primary elements */
+    --primary-foreground: 220 15% 20%; /* Darker text on primary accents */
+    --secondary: 200 20% 90%; /* Light teal for secondary elements */
+    --secondary-foreground: 220 15% 30%; /* Slightly darker gray text */
+    --muted: 200 20% 94%; /* Light muted background */
+    --muted-foreground: 220 10% 40%; /* Medium gray for muted text */
+    --accent: 200 20% 90%; /* Light teal accent */
+    --accent-foreground: 220 15% 20%; /* Charcoal gray text for accent elements */
+    --destructive: 0 70% 60%; /* Softer red for destructive actions */
+    --destructive-foreground: 0 0% 100%; /* White for contrast */
+    --border: 200 20% 85%; /* Light border color matching the theme */
+    --input: 200 20% 95%; /* Very light teal-gray for input backgrounds */
+    --ring: 40 60% 50%; /* Soft gold for focus rings */
+    --radius: 0.5rem; /* Keeping border radius consistent */
+  }
+
+  .dark {
     --background: 200 25% 15%; /* Dark teal background */
     --foreground: 0 0% 100%; /* White text for contrast */
     --card: 200 25% 15%; /* Matches background color */
@@ -24,28 +47,6 @@
     --input: 200 25% 25%; /* Matching input background */
     --ring: 40 70% 50%; /* Gold for focus rings */
     --radius: 0.5rem; /* Keeping border radius the same */
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 136 80% 42%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9;
   }
 }
 
