@@ -5,25 +5,25 @@
 @layer base {
   :root {
     --background: 200 20% 95%; /* Light teal-gray background */
-    --foreground: 220 15% 20%; /* Dark charcoal gray text for contrast */
+    --foreground: 220 15% 20%; /* Dark charcoal gray text */
     --card: 200 15% 98%; /* Very light teal-gray for cards */
-    --card-foreground: 220 15% 20%; /* Charcoal gray text for readability on cards */
-    --popover: 200 15% 98%; /* Same as card background for consistency */
+    --card-foreground: 220 15% 20%; /* Charcoal gray text */
+    --popover: 200 15% 98%; /* Same as card background */
     --popover-foreground: 220 15% 20%;
-    --primary: 40 60% 50%; /* Soft gold accent for primary elements */
+    --primary: 40 60% 50%; /* Soft gold accent */
     --primary-foreground: 220 15% 20%; /* Darker text on primary accents */
     --secondary: 200 20% 90%; /* Light teal for secondary elements */
     --secondary-foreground: 220 15% 30%; /* Slightly darker gray text */
     --muted: 200 20% 94%; /* Light muted background */
     --muted-foreground: 220 10% 40%; /* Medium gray for muted text */
     --accent: 200 20% 90%; /* Light teal accent */
-    --accent-foreground: 220 15% 20%; /* Charcoal gray text for accent elements */
-    --destructive: 0 70% 60%; /* Softer red for destructive actions */
+    --accent-foreground: 220 15% 20%; /* Charcoal gray text */
+    --destructive: 0 70% 60%; /* Softer red */
     --destructive-foreground: 0 0% 100%; /* White for contrast */
-    --border: 200 20% 85%; /* Light border color matching the theme */
+    --border: 200 20% 60%; /* Darker teal-gray for card borders */
     --input: 200 20% 95%; /* Very light teal-gray for input backgrounds */
     --ring: 40 60% 50%; /* Soft gold for focus rings */
-    --radius: 0.5rem; /* Keeping border radius consistent */
+    --radius: 0.5rem; /* Keeping border radius the same */
   }
 
   .dark {
